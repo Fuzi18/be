@@ -13,6 +13,7 @@ import { AppService } from './app.service';
 import { RegisterDto } from './register.dto';
 import User from './user.entity';
 import * as bcrypt from 'bcrypt';
+import { ChangeUserDto } from './changeuser.dto';
 
 @Controller()
 export class AppController {
